@@ -17,8 +17,8 @@ I then load the test data and train data and only keep the data I am interested 
 I proceed then to merge the data vertically (mathching columns of both dataframes) to generate a variable called **AllSet**. At this this point "AllSet" includes both the train and test set of data and has a dimension of  
 dim(AllSet)= 10299    68  
 
-In order to add the appropriate label for the activities I just merge the data with the labels dataframe using the label (numbers) as the merging attribu, and then order it Subject number. This is stored in **finalSet**.  
+In order to add the appropriate label for the activities I just merge the data with the labels dataframe using the label (numbers) as the merging attribute, and then order it Subject number. This is stored in **finalSet**.  
 
 In order to generate the tidy data requested in part 5 of the project, I then melt the **finalSet** using the subject number and acvity as the identification attribute and all the measurements as the variables. Finally I cast the melted dataframe into a new wide tidy dataframe using Subjet and Activity and I calcualte the average of all the measurements for every  Subjet and Activity combination.  
 
-To finish, Ic reate the new file witht he tidy Data as requested.
+To finish, I create the new file witht he tidy Data as requested.
