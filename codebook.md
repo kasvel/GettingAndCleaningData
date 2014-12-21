@@ -10,7 +10,8 @@ The activity types are:
 5. STANDING  
 6. LAYING  
 
-The signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. For each variable, the mean and standard deviation (std) were calculated of the original measurements. Based on the description of the variables in the README.txt file from the original data, the values of the variables are  normalized and bounded within \[-1,1\] (physical units are unknow since they are not specified in the original file).  Therefore, in the final tidy data set there are 66 variables  
+The signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. For each variable, the mean and standard deviation (std) were calculated of the original measurements. Based on the description of the variables in the README.txt file from the original data, the values of the variables are  normalized and bounded within \[-1,1\] (physical units are unknow since they are not specified in the original file). Variables that start with t are time variables, and the ones that start with f are frequency variables.  
+Therefore, in the final tidy data set there are 66 variables  
 
 
 tBodyAcc-mean()-X  
